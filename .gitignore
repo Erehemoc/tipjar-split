@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+contracts/out/
+contracts/cache/
+
+# Environment & secrets — NEVER commit these
+.env
+.env.*
+!.env.example
+.circle/
+.private-secrets/
+*recovery*
+*recovery_file*
+
+# Foundry
+broadcast/
+
+# OS
+.DS_Store
+Thumbs.db
+/lib/
+bun.lock
