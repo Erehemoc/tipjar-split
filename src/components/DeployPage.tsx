@@ -23,7 +23,7 @@ import {
 import { createWalletClient, custom } from 'viem'
 import { ConnectKitButton } from 'connectkit'
 import { Loader2, ExternalLink, Copy, CheckCircle } from 'lucide-react'
-import artifact from '../../contracts/out/TipjarSplit.sol/TipjarSplit.json'
+import artifact from '../abi/TipjarSplit.json'
 import { ACTIVE_CHAIN_ID, ACTIVE_NETWORK_NAME, ARC_MAINNET_USDC } from '../network'
 import { MAINNET_CONTRACT_LS_KEY } from '../contract'
 import { glass, spectral } from './glass'
