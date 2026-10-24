@@ -1,5 +1,7 @@
 # TipJar Split
 
+**Demo video (2 min):** https://github.com/Erehemoc/tipjar-split/blob/main/docs/tipjar-split-demo.mp4 · **Live app:** https://erehemoc.github.io/tipjar-split/
+
 A USDC tip jar for small cafes and bars. Staff on each shift are registered as payees with a percentage share. Customers tip any amount from a QR code on the counter; the contract splits the tip instantly between all payees with exact arithmetic (rounding remainder always goes to the first payee, so the sum of credits always equals the tip exactly). Staff withdraw their accumulated balance at any time in a single pull-payment transaction.
 
 Built with [Arc Studio](https://studio.arc.io) — designed and deployed end-to-end using AI agents.
